@@ -32,7 +32,7 @@ function anagramDifference(w1,w2){
     return dif2.length + dif3.length ;
 }
 
-console.log(anagramDifference("sxyfaruafprcdgwwriofapfvupooqnhivesxjsxw", "mvvzztxmbjnmkeydzsntjthfvhsajdejltelxpoggoauyhenapsuhhhcyzewyszawwrttnnyczzcxfdooxwwgkvvqvfjryeysimu"))
+console.log(anagramDifference("codewars", "hackerrank"))
 
 function anagramDifference(w1, w2) {
     let count1 = {};

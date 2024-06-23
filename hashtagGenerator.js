@@ -5,24 +5,24 @@
 generateHashtag (str)
 
 }
+*/
 
-function generateHashtag (str) {
-    let stringArray = str.split(" ").filter((x) => x !== "").map((y) => y.replace(y[0], y[0].toUpperCase()));
-    let result = ["#", ...stringArray].join("");
+function generateHashtag1 (str1) {
+    let str1ingArray = str1.split(" ").filter((x) => x !== "").map((y) => y.replace(y[0], y[0].toUpperCase()));
+    let result = ["#", ...str1ingArray].join("");
     if ((result.length > 140) || (result === "#")) {
         return false;
     } else {
         return result;
     }
 }
-*/
+
 
 function generateHashtag(str) {
     if (str.trim() === "" || str === "") { //str.trim() va supprimer les espaces en début et en fin de chaîne
         return false;
     }
     let newStr = []
-
     let arr = str.split(" ")
     if (arr.length === 1 && arr[0] === "") {
         return false;
@@ -46,5 +46,6 @@ function generateHashtag(str) {
     }
        
 }
-console.log(generateHashtag(""));
+console.log(generateHashtag("    Hello     World   " ));
+console.log(generateHashtag1("    Hello     World   " ));
 

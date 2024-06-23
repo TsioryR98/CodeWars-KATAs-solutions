@@ -13,9 +13,8 @@ let unique =[];
 }
 return unique.join("")
 }
-console.log(findUniq(numberList))
 
-function findUniq(arr) {
+function findUniq1(arr) {
     // Initialize an empty object to store counts
     const counts = {};
   
@@ -34,5 +33,5 @@ function findUniq(arr) {
   }
   
   // Test cases
-  console.log(findUniq([1, 1, 1, 1, 1, 1])); // Output: 2
-  console.log(findUniq([0, 0, 0.55, 0, 0])); // Output: 0.55
+  console.log(findUniq1([1, 1, 1, 1, 1, 1,2])); // Output: 2
+  console.log(findUniq1([0, 0, 0.55, 0, 0])); // Output: 0.55

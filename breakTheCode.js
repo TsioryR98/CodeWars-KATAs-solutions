@@ -10,9 +10,9 @@ function decodeMessage(code,str) {
         }  
     }
     let finalIndex = index.concat(index.map((x) => x +1)).concat(index.map((y) => y +2))
-    finalIndex.forEach(element => {
-        newStr += str[element]
+    finalIndex.forEach(indexof => {
+        newStr += str[indexof]
     });
-    return newStr;
+    return finalIndex;
 }
 console.log(decodeMessage(3,word));

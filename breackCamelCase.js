@@ -10,7 +10,7 @@ Example
 
 */
 
-let word = "camelCasing";
+let word = "";
 function solution(string) {
     let letter = string.split("");
     let newWord ="";
