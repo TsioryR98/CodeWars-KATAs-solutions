@@ -17,3 +17,5 @@ function spongeMeme(string) {
 return finalLetter;
 }
 console.log(spongeMeme("stop Making spongebob Memes !"));
+console.log(spongeMeme("stop Making spongebob Memes !"));
+
