@@ -1,4 +1,4 @@
-function partsSums(ls) {
+                                        function partsSums(ls) {
     let finalSum = [];
         function eachArray(ls) {
             let newArray =[]
@@ -23,4 +23,4 @@ function partsSums(ls) {
 
 }
 
-console.log(partsSums([744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]));
+console.log(Number.MAX_SAFE_INTEGER +1 == Number.MAX_SAFE_INTEGER + 2)
